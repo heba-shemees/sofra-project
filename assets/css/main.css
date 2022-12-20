@@ -40,6 +40,10 @@
     margin-left: -50px;
 }
 
+.master-logo {
+    width: 100px;
+}
+
 .fa-solid.fa-magnifying-glass {
     color: var(--main-color);
     padding: 10px;
@@ -118,7 +122,7 @@ a {
 
 .dropdown-item:hover {
     color: var(--bs-dropdown-link-hover-color);
-    background-color: white;
+    background-color: var(--nav-color);
 }
 
 li {
@@ -212,6 +216,12 @@ h1 {
     padding-top: 210px;
 }
 
+.logo-sofra {
+    font-size: 200px;
+    color: white;
+    padding-top: 210px;
+}
+
 p {
     margin-bottom: 1rem;
     color: white;
@@ -244,12 +254,6 @@ p {
     position: relative;
     background-position: center;
     height: 50rem;
-}
-
-h1 {
-    font-size: 200px;
-    color: white;
-    padding-top: 210px;
 }
 
 p {
@@ -715,7 +719,8 @@ label.star:before {
 }
 
 .select button {
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     color: white;
     background-color: var(--main-color);
     border: none;
@@ -1212,9 +1217,6 @@ color: grey;
         margin-right: 20px;
     }
     /* start this-order/ */
-    .master img {
-        display: none;
-    }
     .master .search-box-nav {
         display: none;
     }
@@ -1245,6 +1247,32 @@ color: grey;
 
     /* start resturant.html/ */
     .ul-x-mark {
+        display: block;
+    }
+
+    /* .btn/ */
+    .btn-primary {
+        width: 150px;
+    }
+
+    /* stars/ */
+    div.stars {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    /* logo-sofra/ */
+    .logo-sofra {
+        font-size: 130px;
+        display: block;
+    }
+
+    .master-logo {
+        width: 75px;
+    }
+
+    /* contact-us.html choose section/ */
+    .group-check-form {
         display: block;
     }
 }
