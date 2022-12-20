@@ -297,18 +297,6 @@ p {
     align-items: center;
 }
 
-.fa-solid.fa-arrow-down {
-    position: absolute;
-    top: 63rem;
-    margin-left: -155px;
-}
-
-/* .title {
-    text-align: right;
-    padding-left: 10px;
-    padding-right: 10px;
-} */
-
 .stars {
     color: black;
 }
@@ -1181,7 +1169,7 @@ color: grey;
         text-align: center;
     }
     .fa-solid.fa-arrow-down {
-        margin-left: -158px;
+        margin-left: -93px;
     }
 
     /* start basket.html/ */
